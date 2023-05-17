@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Lessons Learned - Trybe</title>
+</head>
+
+<body>
+  <header id="cabecalho">
+    <h1 id="titulo"> Lessons Learned - Trybe</h1>
+    <nav>
+      <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#conteudo-complementar">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://www.betrybe.com/formacao-desenvolvimento-web" target="_blank">BeTrybe</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="conteudo">
+      <section id="perfil">
+        <img id="minha_foto" src="profile.jpeg" alt="Foto de boas vindas da aluna Crislande na Trybe">
+        <h2 style="text-align: center;">Crislande Pereira</h2>
+        <div id="address">
+          <img id="location" src="location.png" alt="icone localizaçao">
+          <p> Poços de Caldas - MG </p>
+        </div>
+      </section>
+      <section id="licoes">
+        <ol id="licoes_aprendidas">
+          <h3>Lessons Learned <span class="material-icons" style="color: green">verified</span></h3>
+          <li>Unix / Shell</li>
+          <li>Git & GitHub</li>
+          <li>Html</li>
+          <li>Css</li>
+          <li>JavaScript</li>
+          <li>Self Knowledge</li>
+          <li>Study Methodologies</li>
+          <li>Time Management</li>
+          <li>Communication</li>
+          <li>Collaboration</li>
+        </ol>
+        <ul id="licoes_a_aprender">
+
+          <h3>Lesson To Learn <span class="material-icons" style="color: red;">pending</span></h3>
+
+          <li>React</li>
+          <li>NodeJs</li>
+          <li>Docker</li>
+          <li>TypeScript</li>
+          <li>SQL & NoSQL</li>
+          <li>POO</li>
+          <li>Python</li>
+          <li>Golang</li>
+          <li>C#</li>
+          <li>Husky</li>
+        </ul>
+      </section>
+    </div>
+    <div id="conteudo-complementar">
+      <h3>About Me</h3>
+      <article class="lado-esquerdo">
+        <p>On 6th February I started my Web Development Training at Trybe and after two weeks I can already say that I learned a lot. <br>I am really enjoying studying at Trybe, I feel that I am developing not only in technical knowledge, but also socially. <br>My communication is gradually improving, I am feeling less shy and afraid every day with my classmates, and I am more <br>organized and better managing my routine and study time.</p>
+      </article>
+      <aside class="lado-direito">
+        <p>I'm 28 and I live in Poços de Caldas - MG. I'm a Pharmacist and I worked for 5 years in hospitals, drugstores and the pharmaceutical industry. After a long time in the health field,I realized that it was no longer an area in which I felt fulfilled. I'm in career transition.</p>
+      </aside>
+      <div class="table">
+        <table>
+          <thead>
+            <tr>
+              <th> My Hobbies </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Realistic Drawing</td>
+            </tr>
+            <tr>
+              <td>Reading Books</td>
+            </tr>
+            <tr>
+              <td>Listening To Music</td>
+            </tr>
+            <tr>
+              <td>Watch Tv Series</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div id="contact">
+      <h3> Contact</h3>
+      <form class="formulario" method="post">
+        <p> Envie uma mensagem preenchendo o formulário abaixo</p>
+
+        <div class="field">
+          <label for="nome">Seu Nome:</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+        </div>
+
+        <div class="field">
+          <label for="telefone">Seu Telefone:</label>
+          <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+        </div>
+
+        <div class="field">
+          <label for="email">Seu E-Mail:</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div>
+
+        <div class="field">
+          <label for="mensagem">Sua mensagem:</label>
+          <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+        </div>
+
+        <input type="submit" name="acao" value="Enviar">
+      </form>
+      <div class="redes-sociais">
+        <h3> Minhas Redes Sociais:</h3>
+        <div class="icons">
+          <a href="https://www.instagram.com/dracrispereira_/"> <img src="instagram.png" alt="icone instagram"> </a>
+          <a href="https://github.com/CrislandePereira/"> <img src="github.png" alt="icone github"></a>
+          <a href="https://www.linkedin.com/in/crislandepereira/"> <img src="linkedin.png" alt="icone linkedin"></a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer id="rodape">
+    <p> Todos os direitos reservados - Cris Pereira®</p>
+  </footer>
+</body>
+
+</html>
